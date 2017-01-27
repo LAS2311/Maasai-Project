@@ -1,0 +1,8 @@
+var button = ui.Button({
+  label: 'Welcome to Maassai!',
+  onClick: function() {
+    print(Map.getCenter());
+  }
+});
+print(button);
+
